@@ -22,7 +22,6 @@ Profile
 -------
 
 Software engineer with an ability to learn and collaborate in rapidly changing environments and compositions while staying focused on achieving high-quality results under strict deadlines. I am responsible, self-organized and hardworking. Reliability and punctuality are one of my strengths that help me in being a valuable worker.
-
 Skills
 ------
 
