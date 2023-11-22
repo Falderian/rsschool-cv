@@ -1,512 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- BOX ICONS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Nikita Staselovich</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="l-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav_logo">Nikita Staselovich</a>
-        <div class="nav_menu" id="nav-menu">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="#home" class="nav_link active-link">
-                <i class="bx bx-home nav_icon"></i>Home
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#profile" class="nav_link">
-                <i class="bx bx-user nav_icon"></i>Profile
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#education" class="nav_link">
-                <i class="bx bx-book nav_icon"></i>Education
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#skills" class="nav_link">
-                <i class="bx bx-receipt nav_icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#experience" class="nav_link">
-                <i class="bx bx-briefcase-alt nav_icon"></i>Experience
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#certificate" class="nav_link">
-                <i class="bx bx-award nav_icon"></i>Certificate
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#references" class="nav_link">
-                <i class="bx bx-link-external nav_icon"></i>References
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="bx bx-grid-alt"></i>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BOX ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <main class="l-main bd-container">
-      <!-- All elements within this div, is generated in PDF -->
-      <div class="resume" id="area-cv">
-        <div class="resume__left">
-          <!-- HOME -->
-          <section class="home" id="home">
-            <div class="home_containter section bd-grid">
-              <div class="home_data bd-grid">
-                <img
-                  src="assets/img/profile.jpg"
-                  alt="avatar"
-                  class="home_img center"
-                />
-                <h1 class="home_title">NIKITA <b>STASELOVICH</b></h1>
-                <h3 class="home_profession">Full Stack Developer</h3>
-                <!-- Button to generate and download the pdf. Available for desktop. -->
-                <div>
-                  <a
-                    download=""
-                    href="assets/pdf/resume.pdf"
-                    class="home_button-movil"
-                    >Download</a
-                  >
-                </div>
-              </div>
-              <div class="home_address bd-grid">
-                <span class="home_information">
-                  <i class="bx bx-map"> &nbsp; </i> Hrodna, Belarus
-                </span>
-                <span class="home_information">
-                  <i class="bx bx-envelope"> &nbsp; </i>
-                  nikitastaselovich@gmail.com
-                </span>
-                <span class="home_information">
-                  <i class="bx bx-phone"> &nbsp; </i> +375 (29) 243-19-24
-                </span>
-              </div>
-            </div>
+  <title>Nikita Staselovich</title>
+</head>
 
-            <!-- Theme change button -->
-            <i
-              class="bx bx-moon change-theme"
-              title="Theme"
-              id="theme-button"
-            ></i>
-            <!-- Button to generate and download the pdf. Available for desktop -->
-            <i
-              class="bx bx-download generate-pdf"
-              title="Generate
-                            PDF"
-              id="resume-button"
-            ></i>
-          </section>
-
-          <!-- SOCIAL -->
-          <section class="social section">
-            <h2 class="section-title">Links</h2>
-            <div class="social_container bd-grid">
-              <a
-                href="https://www.linkedin.com/in/%D0%BD%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D1%81%D1%82%D0%B0%D1%81%D0%B5%D0%BB%D0%BE%D0%B2%D0%B8%D1%87-2a3a7a249/"
-                target="_blank"
-                class="social_link"
-              >
-                <i class="bx bxl-linkedin-square social_icon"></i>
-                Linkedin
-              </a>
-              <a
-                href="https://github.com/Falderian"
-                target="_blank"
-                class="social_link"
-              >
-                <i class="bx bxl-github social_icon"></i>
-                Github
-              </a>
-              <a
-                href="https://vk.com/nikita_staselovich"
-                target="_blank"
-                class="social_link"
-              >
-                <i class="bx bxl-vk social_icon"></i>
-                VK
-              </a>
-            </div>
-          </section>
-          <!-- PROFILE -->
-          <section class="profile section" id="profile">
-            <h2 class="section-title">Profile</h2>
-            <p class="profile_description">
-              Highly accomplished and user-focused Full Stack Developer adept in collaborating with design teams to plan the technical writing and execution of functional specifications for websites and applications. Experienced in building multi-platform websites using responsive web design.
-            </p>
-          </section>
-
-          <!-- EDUCATION -->
-          <section class="education section" id="education">
-            <h2 class="section-title">Education</h2>
-            <div class="education_container bd-grid">
-              <div class="education_content">
-                <div class="education_time">
-                  <span class="education_rounder"></span>
-                  <span class="education_line"></span>
-                </div>
-                <div class="education_data bd-grid">
-                  <h3 class="education_title">JS React</h3>
-                  <span class="education_studies"
-                    >THE ROLLING SCOPES SCHOOL
-                  </span>
-                  <span class="education_year"
-                    >September 2022 - November 2022
-                  </span>
-                </div>
-              </div>
-              <div class="education_content">
-                <div class="education_time">
-                  <span class="education_rounder"></span>
-                  <span class="education_line"></span>
-                </div>
-                <div class="education_data bd-grid">
-                  <h3 class="education_title">Frontend Developer</h3>
-                  <span class="education_studies"
-                    >THE ROLLING SCOPES SCHOOL
-                  </span>
-                  <span class="education_year"
-                    >December 2021 - September 2022
-                  </span>
-                </div>
-              </div>
-              <div class="education_content">
-                <div class="education_time">
-                  <span class="education_rounder"></span>
-                  <!-- <span class="education_line"></span> -->
-                </div>
-                <div class="education_data bd-grid">
-                  <h3 class="education_title">Mathematician</h3>
-                  <span class="education_studies"
-                    >YANKA KUPALA STATE UNIVERSITY OF GRODNO
-                  </span>
-                  <span class="education_year">2013 - 2017</span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- SKILLS  -->
-          <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills_content bd-grid">
-              <ul class="skills_data">
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  REACT
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  VUE
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  NEST
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  NODE
-                </li>
-              </ul>
-              <ul class="skills_data">
-                <li class="skills_name">
-                  <span class="skills_circle"></span>TYPESCRIPT
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>SASS
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>PYTHON
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>GIT
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!-- LANGUAGES-->
-          <section class="section" id="skills">
-            <h2 class="section-title">Languages</h2>
-            <div class="skills_content">
-              <ul class="skills_data">
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  English (B1 - B2)
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  Russian (native)
-                </li>
-              </ul>
-            </div>
-          </section>
-          <section class="section" id="skills">
-            <h2 class="section-title">Technologies</h2>
-            <div class="skills_content">
-              <ul class="skills_data">
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                   Redux, Pinia, ChartJS, WebPack
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  Postgres, MongoDB
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  WebSockets, Redis, Cron, Google Auth
-                </li>
-
-                <li class="skills_name">
-                  <span class="skills_circle"></span>
-                  RubyOnRails, Scala
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-        <div class="resume__right">
-          <!-- EXPERIENCE -->
-          <section class="experience section" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <div class="experience_container bd-grid">
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <span class="experience_line"></span>
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">FULL STACK DEVELOPER</h3>
-                  <span class="experience_company">
-                    <b>Krononsoft </b>/ December 2022 - present</span
-                  >
-                  <p class="experience_description">
-                    Full Stack Developer with proven experience at Krononsoft in
-                    helping companies create and maintain a better code base for
-                    reusability. Eager to tackle more complex problems and
-                    continue to find ways to maximize user efficiency.
-                  </p>
-                </div>
-              </div>
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <span class="experience_line"></span>
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">
-                    HEAD OF THE DIVISION(STORAGE, TRANSSHIPMENT AND
-                    TRANSPORTATION)
-                  </h3>
-                  <span class="experience_company">
-                    <b>Armed Forces of the Republic of Belarus </b>/ September
-                    2021 - June 2022
-                  </span>
-                  <p class="experience_description">
-                    I was the direct organizator of the training and daily
-                    education of the personnel. I was obliged to organize combat
-                    training, draw up a plan of main events for the month and to
-                    schedule classes for the week and conduct them.
-                  </p>
-                </div>
-              </div>
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <span class="experience_line"></span>
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">
-                    COMMANDER OF THE LAUNCHING PLATOON
-                  </h3>
-                  <span class="experience_company">
-                    <b>Armed Forces of the Republic of Belarus </b>/ June 2020 -
-                    September 2021
-                  </span>
-                  <p class="experience_description">
-                    I was responsible for the combat readiness of the platoon
-                    and the successful completion of combat missions; combat
-                    training, education, military discipline and the moral and
-                    psychological state of the personnel;
-                  </p>
-                </div>
-              </div>
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <span class="experience_line"></span>
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">TEACHER OF MATHEMATICS</h3>
-                  <span class="experience_company">
-                    <b>Secondary school №2 of Oshmyany </b>/ August 2019 - April
-                    2020</span
-                  >
-                  <p class="experience_description">
-                    My responsibilites were to train and educate students,
-                    taking into account the specifics of the subject, conduct
-                    lessons and other classes in accordance with the schedule;
-                    ensure the level of students meets the requirements of the
-                    state educational standard.
-                  </p>
-                </div>
-              </div>
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <!-- <span class="experience_line"></span> -->
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">TEACHER OF MATHEMATICS</h3>
-                  <span class="experience_company">
-                    <b>Secondary school №3 of Oshmyany </b>/ August 2017 - May
-                    2018
-                  </span>
-                  <p class="experience_description">
-                    Working there, I had a chance to systematically improve my
-                    professional qualifications. I participated in the
-                    activities of methodological associations and other forms of
-                    methodological work.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- CERTIFICATES -->
-          <section class="certificate section" id="certificate">
-            <h2 class="section-title">Certificates</h2>
-            <div class="certificate_container bd-grid">
-              <div class="certificate_content">
-                <h3 class="certificate_title">Frontend Developer - 2022</h3>
-                <p class="certificate_description">
-                  I had done detailed course Frontend Developer from EPAM
-                  Systems.
-                </p>
-              </div>
-              <div class="certificate_content">
-                <h3 class="certificate_title">Python developer - 2023</h3>
-                <p class="certificate_description">
-                  I have completed the basic Python course from Educative.io
-                  and am continuing to study it in-depth, focusing on areas such as Data Science, Django, AI.
-                </p>
-            </div>
-          </section>
-          <!-- PROJECTS -->
-          <section class="certificate section" id="certificate">
-            <h2 class="section-title">Projects</h2>
-            <div class="certificate_container bd-grid">
-              <div class="certificate_content">
-                <p class="certificate_description">
-                  <a
-                    class="project-link"
-                    href="
-                    https://weathery-view.netlify.app/"
-                    target="_blank"
-                    >Weathery View(2023)</a
-                  >
-                  - A weather application is a digital tool that provides users
-                  with real-time weather information and forecast. Full stack
-                  application (Vue + Nest). Work in progress.
-                </p>
-              </div>
-              <div class="certificate_content">
-                <p class="certificate_description">
-                  <a
-                    class="project-link"
-                    href="https://team-38.netlify.app/"
-                    target="_blank"
-                    >RS Lang(2022)</a
-                  >
-                  - SPA for learning English, as a member of the team, my area
-                  of ​​​​responsibilities lied in the creation of an audio
-                  challenge game and in everything related to the backend. My
-                  task was to deploy it and create requests to the server such
-                  as generating, memorizing and putting words into a complex
-                  category, collecting user statistics, authorizing and
-                  remembering a user.
-                </p>
-              </div>
-              <div class="certificate_content">
-                <p class="certificate_description">
-                  <a
-                    class="project-link"
-                    href="https://rolling-scopes-school.github.io/falderian-JSFE2022Q1/shelter/pages/main/index.html"
-                    target="_blank"
-                    >Online store(2022)</a
-                  >
-                  - a local server was provided, in the form of a JSON file. It
-                  was required to implement an SPA with the possibility of
-                  multi-section selection of filters, search and sorting (about
-                  5 months after the start).
-                </p>
-              </div>
-              <div class="certificate_content">
-                <p class="certificate_description">
-                  <a
-                    class="project-link"
-                    href="https://rolling-scopes-school.github.io/falderian-JSFE2022Q1/Online-store/"
-                    target="_blank"
-                    >Pet Shelter(2021)</a
-                  >
-                  - a simple adaptive SPA. It was focused on the moment of
-                  learning the rubber layout and cross-platforms (3 months after
-                  the start of training).
-                </p>
-              </div>
-            </div>
-          </section>
-          <!-- INTERESTS -->
-          <section class="interests section">
-            <h2 class="section-title">Interests</h2>
-            <div class="interests_container">
-              <div>
-                Apart from being a web developer, I enjoy spending most of my
-                time being outdoors. I usually ride my motorbike when it's warm
-                enough and sometimes I go cycling. Healthy lifestyle is one of
-                my priorities that's why every morning I jog and every weekend I
-                go to the swimming pool.
-                <br />
-                <br />
-                Programming fascinates me because of its process of finding a
-                solution to a task and the variability of solving the same
-                problem in different ways. The constant change makes me seek out
-                new technologies in order to keep up and it pushes me towards
-                self-improvement .
-              </div>
-            </div>
-          </section>
-        </div>
+<body>
+  <!-- HEADER -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav_logo">Nikita Staselovich</a>
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link active-link">
+              <i class="bx bx-home nav_icon"></i>Home
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#profile" class="nav_link">
+              <i class="bx bx-user nav_icon"></i>Profile
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#education" class="nav_link">
+              <i class="bx bx-book nav_icon"></i>Education
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills" class="nav_link">
+              <i class="bx bx-receipt nav_icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#experience" class="nav_link">
+              <i class="bx bx-briefcase-alt nav_icon"></i>Experience
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#certificate" class="nav_link">
+              <i class="bx bx-award nav_icon"></i>Certificate
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#references" class="nav_link">
+              <i class="bx bx-link-external nav_icon"></i>References
+            </a>
+          </li>
+        </ul>
       </div>
-    </main>
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
 
-    <!-- SCROLL TOP -->
-    <a href="#" class="scrolltop" id="scrolltop">
-      <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
-    </a>
+  <main class="l-main bd-container">
+    <!-- All elements within this div, is generated in PDF -->
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <!-- HOME -->
+        <section class="home" id="home">
+          <div class="home_containter section bd-grid">
+            <div class="home_data bd-grid">
+              <img src="assets/img/profile.jpg" alt="avatar" class="home_img center" />
+              <h1 class="home_title">NIKITA <b>STASELOVICH</b></h1>
+              <h3 class="home_profession">Full Stack Developer</h3>
+              <!-- Button to generate and download the pdf. Available for desktop. -->
+              <div>
+                <a download="" href="assets/pdf/resume.pdf" class="home_button-movil">Download</a>
+              </div>
+            </div>
+            <div class="home_address bd-grid">
+              <span class="home_information">
+                <i class="bx bx-map"> &nbsp; </i> Hrodna, Belarus
+              </span>
+              <span class="home_information">
+                <i class="bx bx-envelope"> &nbsp; </i>
+                nikitastaselovich@gmail.com
+              </span>
+              <span class="home_information">
+                <i class="bx bx-phone"> &nbsp; </i> +375 (29) 243-19-24
+              </span>
+            </div>
+          </div>
 
-    <!-- HTML2PDF -->
-    <script src="assets/js/html2pdf.bundle.min.js"></script>
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+          <!-- Button to generate and download the pdf. Available for desktop -->
+          <i class="bx bx-download generate-pdf" title="Generate
+                            PDF" id="resume-button"></i>
+        </section>
 
-    <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
-  </body>
-  <br />
+        <!-- SOCIAL -->
+        <section class="social section">
+          <h2 class="section-title">Links</h2>
+          <div class="social_container bd-grid">
+            <a href="https://www.linkedin.com/in/%D0%BD%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D1%81%D1%82%D0%B0%D1%81%D0%B5%D0%BB%D0%BE%D0%B2%D0%B8%D1%87-2a3a7a249/"
+              target="_blank" class="social_link">
+              <i class="bx bxl-linkedin-square social_icon"></i>
+              Linkedin
+            </a>
+            <a href="https://github.com/Falderian" target="_blank" class="social_link">
+              <i class="bx bxl-github social_icon"></i>
+              Github
+            </a>
+            <a href="https://vk.com/nikita_staselovich" target="_blank" class="social_link">
+              <i class="bx bxl-vk social_icon"></i>
+              VK
+            </a>
+          </div>
+        </section>
+        <!-- PROFILE -->
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Profile</h2>
+          <p class="profile_description">
+            Highly accomplished Full Stack Developer, skilled in collaborating with design teams to plan and execute
+            technical aspects for websites and applications. Expertise in crafting responsive, multi-platform websites
+            for optimal user experiences.
+          </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="education section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="education_container bd-grid">
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <span class="education_line"></span>
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">JS React</h3>
+                <span class="education_studies">THE ROLLING SCOPES SCHOOL
+                </span>
+                <span class="education_year">September 2022 - November 2022
+                </span>
+              </div>
+            </div>
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <span class="education_line"></span>
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">Frontend Developer</h3>
+                <span class="education_studies">THE ROLLING SCOPES SCHOOL
+                </span>
+                <span class="education_year">December 2021 - September 2022
+                </span>
+              </div>
+            </div>
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <!-- <span class="education_line"></span> -->
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">Mathematician</h3>
+                <span class="education_studies">YANKA KUPALA STATE UNIVERSITY OF GRODNO
+                </span>
+                <span class="education_year">2013 - 2017</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SKILLS  -->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills_content bd-grid">
+            <ul class="skills_data">
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                REACT
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                VUE
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                NEST
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                NODE
+              </li>
+            </ul>
+            <ul class="skills_data">
+              <li class="skills_name">
+                <span class="skills_circle"></span>TYPESCRIPT
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>SASS
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>PYTHON
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>GIT
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- LANGUAGES-->
+        <section class="section" id="skills">
+          <h2 class="section-title">Languages</h2>
+          <div class="skills_content">
+            <ul class="skills_data">
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                English (B1 - B2)
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>
+                Russian (native)
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Technologies</h2>
+          <div class="skills_content">
+            <ul class="skills_data">
+              <li class="skills_name">
+                Redux, Pinia, ChartJS, WebPack
+              </li>
+              <li class="skills_name">
+                Postgres, MongoDB, WebSockets, Redis, Cron, Google Auth
+              </li>
+              <li class="skills_name">
+                RubyOnRails, Scala
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="resume__right">
+        <!-- EXPERIENCE -->
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <div class="experience_container bd-grid">
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">FULL STACK DEVELOPER</h3>
+                <span class="experience_company">
+                  <b>Krononsoft </b>/ December 2022 - present</span>
+                <p class="experience_description">
+                  As an accomplished Full Stack Developer at Krononsoft, I specialize in establishing and maintaining
+                  robust, reusable code bases. Enthusiastic about addressing complex challenges, I continuously seek
+                  innovative solutions to enhance user efficiency.
+                </p>
+              </div>
+            </div>
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">
+                  HEAD OF THE DIVISION(STORAGE, TRANSSHIPMENT AND
+                  TRANSPORTATION)
+                </h3>
+                <span class="experience_company">
+                  <b>Armed Forces of the Republic of Belarus </b>/ September
+                  2021 - June 2022
+                </span>
+                <p class="experience_description">
+                  I served as the primary organizer for personnel training and daily education. My responsibilities
+                  included overseeing combat training, formulating monthly event plans, scheduling weekly classes, and
+                  personally conducting them.
+                </p>
+              </div>
+            </div>
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">
+                  COMMANDER OF THE LAUNCHING PLATOON
+                </h3>
+                <span class="experience_company">
+                  <b>Armed Forces of the Republic of Belarus </b>/ June 2020 -
+                  September 2021
+                </span>
+                <p class="experience_description">
+                  I ensured platoon combat readiness, overseeing mission success and managing key areas including
+                  training, education, military discipline, and personnel well-being.
+                </p>
+              </div>
+            </div>
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">TEACHER OF MATHEMATICS</h3>
+                <span class="experience_company">
+                  <b>Secondary school №2 of Oshmyany </b>/ August 2019 - April
+                  2020</span>
+                <p class="experience_description">
+                  I taught and guided students, adapting lessons to suit each subject's intricacies. I maintained a
+                  structured schedule for classes, aiming to uplift students to meet state educational standards.
+                </p>
+              </div>
+            </div>
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <!-- <span class="experience_line"></span> -->
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">TEACHER OF MATHEMATICS</h3>
+                <span class="experience_company">
+                  <b>Secondary school №3 of Oshmyany </b>/ August 2017 - May
+                  2018
+                </span>
+                <p class="experience_description">
+                  During my tenure, I had the opportunity to systematically enhance my professional qualifications.
+                  I actively engaged in methodological work, contributing
+                  to continuous improvement in my field.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- CERTIFICATES -->
+        <section class="certificate section" id="certificate">
+          <h2 class="section-title">Certificates</h2>
+          <div class="certificate_container bd-grid">
+            <div class="certificate_content">
+              <h3 class="certificate_title">Frontend Developer - 2022</h3>
+              <p class="certificate_description">
+                I had done detailed course Frontend Developer from EPAM
+                Systems.
+              </p>
+            </div>
+            <div class="certificate_content">
+              <h3 class="certificate_title">Python developer - 2023</h3>
+              <p class="certificate_description">
+                I have completed the basic Python course from Educative.io
+                and am continuing to study it in-depth, focusing on areas such as Data Science, Django, AI.
+              </p>
+            </div>
+        </section>
+        <!-- PROJECTS -->
+        <section class="certificate section" id="certificate">
+          <h2 class="section-title">Projects</h2>
+          <div class="certificate_container bd-grid">
+            <div class="certificate_content">
+              <p class="certificate_description">
+                <a class="project-link" href="
+                    https://weathery-view.netlify.app/" target="_blank">Weathery View(2023)</a>
+                - An advanced weather application, a digital tool designed to deliver users real-time weather
+                information and forecasts. This full-stack application is developed using Vue + Nest.
+              </p>
+            </div>
+            <div class="certificate_content">
+              <p class="certificate_description">
+                <a class="project-link" href="https://team-38.netlify.app/" target="_blank">RS Lang(2022)</a>
+                - As part of the English learning SPA team, I focused on creating an audio challenge game and handling
+                backend tasks. My responsibilities included deploying the game and managing server requests, such as
+                generating and memorizing words in complex categories, collecting user statistics, and handling user
+                authorization.
+              </p>
+            </div>
+            <div class="certificate_content">
+              <p class="certificate_description">
+                <a class="project-link"
+                  href="https://rolling-scopes-school.github.io/falderian-JSFE2022Q1/shelter/pages/main/index.html"
+                  target="_blank">Online store(2022)</a>
+                - Utilizing a local JSON file server, we developed a feature-rich SPA enabling multi-section filter
+                selection, search, and sorting within approximately five months from project initiation
+              </p>
+            </div>
+            <div class="certificate_content">
+              <p class="certificate_description">
+                <a class="project-link"
+                  href="https://rolling-scopes-school.github.io/falderian-JSFE2022Q1/Online-store/" target="_blank">Pet
+                  Shelter(2021)</a>
+                - A basic adaptive SPA centered on learning responsive design and cross-platform functionality, achieved
+                within three months of training initiation.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- INTERESTS -->
+        <section class="interests section">
+          <h2 class="section-title">Interests</h2>
+          <div class="interests_container">
+            <div>
+              Beyond web development, I savor outdoor activities, cycling in warm weather, and uphold a healthy
+              lifestyle through daily jogs and weekend swims.
+              <br />
+              <br />
+              The fascination with programming stems from its problem-solving dynamics and the myriad approaches to
+              challenges. Embracing change, I actively pursue new technologies, fostering a commitment to continuous
+              self-improvement.
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- SCROLL TOP -->
+  <a href="#" class="scrolltop" id="scrolltop">
+    <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+  </a>
+
+  <!-- HTML2PDF -->
+  <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+<br />
+
 </html>
