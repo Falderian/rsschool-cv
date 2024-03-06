@@ -194,7 +194,6 @@ body.scale-cv{
 
 .scale-cv .interests_container{
   column-gap: 1.5rem;
-  font-size: 10px;
 }
 
 body {
@@ -641,4 +640,16 @@ img {
     grid-template-columns: repeat(3, max-content);
     column-gap: 3.5rem;
   }
+}
+
+
+.project-link {
+  color: #0366d6;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #0645ad;
 }
